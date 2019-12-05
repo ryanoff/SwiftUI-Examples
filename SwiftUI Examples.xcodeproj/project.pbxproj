@@ -18,6 +18,7 @@
 		3F931C522398D4BC00323F39 /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F931C512398D4BC00323F39 /* ToggleView.swift */; };
 		3F931C542398D4C900323F39 /* BackgroundColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F931C532398D4C900323F39 /* BackgroundColorView.swift */; };
 		3F931C562398D6C600323F39 /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F931C552398D6C600323F39 /* BindingView.swift */; };
+		3F931C582398E1CE00323F39 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F931C572398E1CE00323F39 /* FormView.swift */; };
 		3FAA75072385F9D90003A863 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FAA75062385F9D90003A863 /* TestView.swift */; };
 		3FBEB013233D359300818B70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBEB012233D359300818B70 /* AppDelegate.swift */; };
 		3FBEB015233D359300818B70 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBEB014233D359300818B70 /* SceneDelegate.swift */; };
@@ -39,6 +40,7 @@
 		3F931C512398D4BC00323F39 /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
 		3F931C532398D4C900323F39 /* BackgroundColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundColorView.swift; sourceTree = "<group>"; };
 		3F931C552398D6C600323F39 /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
+		3F931C572398E1CE00323F39 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
 		3FAA75062385F9D90003A863 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		3FBEB00F233D359300818B70 /* SwiftUI Examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Examples.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FBEB012233D359300818B70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				3F931C4D2398D49700323F39 /* EnvironmentObjectView.swift */,
 				3F931C552398D6C600323F39 /* BindingView.swift */,
 				3F931C532398D4C900323F39 /* BackgroundColorView.swift */,
+				3F931C572398E1CE00323F39 /* FormView.swift */,
 			);
 			path = VIews;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 				3F330781235158F800B883A4 /* DrawingView.swift in Sources */,
 				3F931C4E2398D49700323F39 /* EnvironmentObjectView.swift in Sources */,
 				3FBEB013233D359300818B70 /* AppDelegate.swift in Sources */,
+				3F931C582398E1CE00323F39 /* FormView.swift in Sources */,
 				3FBEB015233D359300818B70 /* SceneDelegate.swift in Sources */,
 				3FAA75072385F9D90003A863 /* TestView.swift in Sources */,
 				3FBEB017233D359300818B70 /* MenuView.swift in Sources */,

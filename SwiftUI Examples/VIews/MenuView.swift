@@ -61,7 +61,8 @@ struct MenuListView: View {
                 
                 NavigationLink(destination: StringView()){ Text("Strings").padding() }
                 NavigationLink(destination: BackgroundColorView()){ Text("Background Color").padding() }
-                
+                NavigationLink(destination: FormView()){ Text("Forms").padding() }
+
             }
             
             Section(header: Text("Combine")) {
