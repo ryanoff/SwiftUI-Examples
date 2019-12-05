@@ -1,6 +1,6 @@
 //
 //  ModalView.swift
-// SwiftUI Examples
+//  SwiftUI Examples
 //
 //  Created by Ryan Off on 10/8/19.
 //  Copyright © 2019 Ryan Off. All rights reserved.

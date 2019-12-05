@@ -1,6 +1,6 @@
 //
 //  StringView.swift
-// SwiftUI Examples
+//  SwiftUI Examples
 //
 //  Created by Ryan Off on 11/7/19.
 //  Copyright © 2019 Ryan Off. All rights reserved.
