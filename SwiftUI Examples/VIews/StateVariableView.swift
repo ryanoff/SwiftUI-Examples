@@ -9,8 +9,40 @@
 import SwiftUI
 
 struct StateVariableView: View {
+    @State private var showGreeting = true
+    @State private var counter = 0
+
     var body: some View {
-        Text("not implemented yet")
+        VStack {
+            VStack {
+                Text("State Variable").font(.title)
+            }
+            
+            Toggle(isOn: $showGreeting) {
+                Text("Show Greeting")
+                    .font(.headline)
+                    .padding()
+            }
+            
+            if showGreeting {
+                
+                Text("Hello Bob!")
+                    .font(.headline)
+                    .padding()
+                
+            }
+
+            Divider()
+            
+            Stepper("Change counter", value: $counter, in: 0...100)
+            
+            Text("Counter is \(self.counter)")
+                .font(.title)
+                .padding()
+
+            Spacer()
+            
+        } // VStack
     }
 }
 

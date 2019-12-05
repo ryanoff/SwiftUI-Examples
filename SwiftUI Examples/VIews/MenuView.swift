@@ -77,6 +77,9 @@ struct MenuListView: View {
                 NavigationLink(destination: PickerView()){ Text("Picker").padding() }
                 NavigationLink(destination: ToggleView()){ Text("Toggle").padding() }
                 
+                // TODO: forms
+                // TODO: stepper
+                
             }
 
         } // List

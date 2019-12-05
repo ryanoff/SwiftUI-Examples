@@ -9,19 +9,27 @@
 import SwiftUI
 
 struct ToggleView: View {
+    @State private var showGreeting = true
+
     var body: some View {
         VStack {
             VStack {
                 Text("Toggle").font(.title)
-                Text("not implemented yet")
             }
             
-            Toggle(isOn: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant(true)/*@END_MENU_TOKEN@*/) {
-                Text("Toggle Me")
+            Toggle(isOn: $showGreeting) {
+                Text("Show Greeting")
                     .font(.headline)
+                    .padding()
             }
             
-        }
+            if showGreeting {
+                Text("Hello Bob!")
+            }
+            
+            Spacer()
+            
+        } // VStack
     }
 }
 
