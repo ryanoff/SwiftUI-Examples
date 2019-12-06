@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3F0FB7B1237530B600046059 /* StringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0FB7B0237530B600046059 /* StringView.swift */; };
+		3F2745DF239A1C6A00B52B44 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2745DE239A1C6A00B52B44 /* Styles.swift */; };
 		3F330770234D7AA100B883A4 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F33076F234D7AA100B883A4 /* PickerView.swift */; };
 		3F330772234D7D0100B883A4 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F330771234D7D0100B883A4 /* ModalView.swift */; };
 		3F330774234D7DFB00B883A4 /* ActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F330773234D7DFB00B883A4 /* ActionSheetView.swift */; };
@@ -30,6 +31,7 @@
 
 /* Begin PBXFileReference section */
 		3F0FB7B0237530B600046059 /* StringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringView.swift; sourceTree = "<group>"; };
+		3F2745DE239A1C6A00B52B44 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 		3F33076F234D7AA100B883A4 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
 		3F330771234D7D0100B883A4 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
 		3F330773234D7DFB00B883A4 /* ActionSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetView.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				3F931C552398D6C600323F39 /* BindingView.swift */,
 				3F931C532398D4C900323F39 /* BackgroundColorView.swift */,
 				3F931C572398E1CE00323F39 /* FormView.swift */,
+				3F2745DE239A1C6A00B52B44 /* Styles.swift */,
 			);
 			path = VIews;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 				3FBEB015233D359300818B70 /* SceneDelegate.swift in Sources */,
 				3FAA75072385F9D90003A863 /* TestView.swift in Sources */,
 				3FBEB017233D359300818B70 /* MenuView.swift in Sources */,
+				3F2745DF239A1C6A00B52B44 /* Styles.swift in Sources */,
 				3F330774234D7DFB00B883A4 /* ActionSheetView.swift in Sources */,
 				3F330772234D7D0100B883A4 /* ModalView.swift in Sources */,
 				3F931C542398D4C900323F39 /* BackgroundColorView.swift in Sources */,

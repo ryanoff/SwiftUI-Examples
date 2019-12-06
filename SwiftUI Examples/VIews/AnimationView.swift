@@ -24,6 +24,15 @@ struct AnimationView: View {
         VStack (alignment: .leading){
                         
             Spacer()
+            
+            Button(action: {
+                print("Tap tap")
+            }) {
+                Text("Rent a space")
+            }
+            .buttonStyle(GradientBackgroundStyle())
+//            .modifier(PrimaryButtonStyle())
+//            .scaleEffect(configuration.isPressed ? 0.9 : 1.0)
 //            Group {
 //                Image(systemName: "paperplane")
 //                    .font(.system(size: 40))
