@@ -7,45 +7,95 @@
 //
 
 import SwiftUI
+import Combine
 
 struct EnvironmentObjectView: View {
-    
-    @EnvironmentObject var order: Order
+
+    @EnvironmentObject var settings: Settings
+    @EnvironmentObject var user: UserManager
     
     var body: some View {
         VStack {
-            Text("Order")
-                .font(.title)
-                .padding()
+            Form {
+                TextField("Username", text: $settings.username)
+                TextField("Password", text: $settings.password)
+                HStack {
+                    Text("Height in cm")
+                    Slider(value: $settings.height, in: 0...300, step: 1)
+                }
+                Button("Update Height in Feet"){
+                    self.user.heightInFeet(settings: self.settings)
+                }
 
-            Text("\(order.name)")
-                .font(.headline)
+            }
             
-            Text("\(order.item)")
-                .font(.headline)
-            
-            Text(order.nameItem())
-                .font(.subheadline)
+            SummaryView()
+            Divider()
+            DetailView()
+
+            Spacer()
 
         }
     }
 }
 
 struct EnvironmentObjectView_Previews: PreviewProvider {
-    static let order = Order()
 
     static var previews: some View {
-        EnvironmentObjectView().environmentObject(order)
+        EnvironmentObjectView()
+            .environmentObject(Settings())
     }
 }
 
-class Order: ObservableObject {
-    @Published var name = "this is a name"
-    @Published var item = "this is an item"
+struct SummaryView: View {
+
+    @EnvironmentObject var settings: Settings
+    @EnvironmentObject var user: UserManager
     
-    func nameItem () -> String {
-        return "\(self.name) and \(self.item)"
+    var body: some View {
+        VStack {
+            Text("Summary").font(.headline)
+            Text("Username: \(settings.username)")
+            Text("Height (ft): \(user.heightFeet)")
+        }
     }
-    
 }
+
+struct DetailView: View {
+
+    @EnvironmentObject var settings: Settings
+    @EnvironmentObject var user: UserManager
+    
+    var body: some View {
+        VStack {
+            Text("Detail").font(.headline)
+            Text("Username: \(settings.username)")
+            Text("Password: \(settings.password)")
+            Text("Height (cm): \(settings.height)")
+            Text("Height (ft): \(user.heightFeet)")
+        }
+    }
+}
+
+
+class Settings: ObservableObject {
+    @Published var username = ""
+    @Published var password = ""
+    @Published var height: Double = 100
+
+//    func usernameAndHeight () -> String {
+//        return "\(self.username) is \(self.height) cm tall"
+//    }
+}
+
+class UserManager: ObservableObject {
+
+    @Published var heightFeet: Double = 0
+    
+    func heightInFeet(settings:Settings) {
+        heightFeet = settings.height * 0.393701
+    }
+}
+
+
 
