@@ -48,6 +48,7 @@ struct MenuListView: View {
             Section(header: Text("Modals and Action Sheets")) {
                 NavigationLink(destination: ModalView()){ Text("Modal").padding() }
                 NavigationLink(destination: ActionSheetView()){ Text("Action Sheet").padding() }
+                NavigationLink(destination: PopoverView()){ Text("Popover").padding() }
             }
             
             Section(header: Text("Drawings and Animation")) {
