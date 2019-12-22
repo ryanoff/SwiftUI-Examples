@@ -15,6 +15,7 @@
 		3F330774234D7DFB00B883A4 /* ActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F330773234D7DFB00B883A4 /* ActionSheetView.swift */; };
 		3F330781235158F800B883A4 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F330780235158F800B883A4 /* DrawingView.swift */; };
 		3F33078F2355827900B883A4 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F33078E2355827900B883A4 /* AnimationView.swift */; };
+		3F8D9C1F23AEF2EA0053E73D /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8D9C1E23AEF2EA0053E73D /* NotificationsView.swift */; };
 		3F931C4E2398D49700323F39 /* EnvironmentObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F931C4D2398D49700323F39 /* EnvironmentObjectView.swift */; };
 		3F931C502398D4AE00323F39 /* StateVariableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F931C4F2398D4AE00323F39 /* StateVariableView.swift */; };
 		3F931C522398D4BC00323F39 /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F931C512398D4BC00323F39 /* ToggleView.swift */; };
@@ -39,6 +40,7 @@
 		3F330773234D7DFB00B883A4 /* ActionSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetView.swift; sourceTree = "<group>"; };
 		3F330780235158F800B883A4 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 		3F33078E2355827900B883A4 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
+		3F8D9C1E23AEF2EA0053E73D /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		3F931C4D2398D49700323F39 /* EnvironmentObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectView.swift; sourceTree = "<group>"; };
 		3F931C4F2398D4AE00323F39 /* StateVariableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateVariableView.swift; sourceTree = "<group>"; };
 		3F931C512398D4BC00323F39 /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				3F0FB7B0237530B600046059 /* StringView.swift */,
 				3F330780235158F800B883A4 /* DrawingView.swift */,
 				3F330771234D7D0100B883A4 /* ModalView.swift */,
+				3F8D9C1E23AEF2EA0053E73D /* NotificationsView.swift */,
 				3F0D7EB523AAB046001EA1FC /* PopoverView.swift */,
 				3F33078E2355827900B883A4 /* AnimationView.swift */,
 				3F330773234D7DFB00B883A4 /* ActionSheetView.swift */,
@@ -204,6 +207,7 @@
 				3F931C562398D6C600323F39 /* BindingView.swift in Sources */,
 				3F0FB7B1237530B600046059 /* StringView.swift in Sources */,
 				3F33078F2355827900B883A4 /* AnimationView.swift in Sources */,
+				3F8D9C1F23AEF2EA0053E73D /* NotificationsView.swift in Sources */,
 				3F330781235158F800B883A4 /* DrawingView.swift in Sources */,
 				3F931C4E2398D49700323F39 /* EnvironmentObjectView.swift in Sources */,
 				3FBEB013233D359300818B70 /* AppDelegate.swift in Sources */,
