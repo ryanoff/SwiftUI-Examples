@@ -14,28 +14,21 @@ struct MenuView: View {
         
         
         NavigationView {
-
-        ZStack {
-
-                // Set the background color
-                Color.orange.edgesIgnoringSafeArea(.all)
-
-                MenuListView()
-
-            } // ZStack
-            .navigationBarItems(trailing:
-                HStack {
-                    Button("Test") {
-                        print("This is a Test button")
+            
+            MenuListView()
+                .navigationBarItems(trailing:
+                    HStack {
+                        Button("Test") {
+                            print("This is a Test button")
+                        }
+                        
+                        Button(action: {}) { Image(systemName: "magnifyingglass").foregroundColor(Color.gray).padding() }
+                        
+                        NavigationLink(destination: ActionSheetView()){ Image(systemName: "paperplane").padding() }
+                        
                     }
-
-                    Button(action: {}) { Image(systemName: "magnifyingglass").foregroundColor(Color.gray).padding() }
-
-                    NavigationLink(destination: ActionSheetView()){ Image(systemName: "paperplane").padding() }
-
-                }
             )
-
+            
         } // NavgiationView
     } // body
 } // ContentView
@@ -43,7 +36,7 @@ struct MenuView: View {
 struct MenuListView: View {
     var body: some View {
         
-        List{
+        List {
             // Modals, Action Sheets
             Section(header: Text("Modals and Action Sheets")) {
                 NavigationLink(destination: ModalView()){ Text("Modal").padding() }
@@ -55,7 +48,8 @@ struct MenuListView: View {
                 
                 NavigationLink(destination: DrawingView()){ Text("Drawing").padding() }
                 NavigationLink(destination: AnimationView()){ Text("Animation").padding() }
-
+                NavigationLink(destination: LoadingView()){ Text("Loading").padding() }
+                
             }
             
             Section(header: Text("Basics")) {
@@ -64,7 +58,7 @@ struct MenuListView: View {
                 NavigationLink(destination: BackgroundColorView()){ Text("Background Color").padding() }
                 NavigationLink(destination: FormView()){ Text("Forms").padding() }
                 NavigationLink(destination: NotificationsView()){ Text("Notifications").padding() }
-
+                
             }
             
             Section(header: Text("Combine")) {
@@ -84,10 +78,10 @@ struct MenuListView: View {
                 // TODO: stepper
                 
             }
-
+            
         } // List
-        .navigationBarTitle(Text("Menu"))
-
+            .navigationBarTitle(Text("Menu"))
+        
     }
 }
 
