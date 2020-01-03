@@ -16,6 +16,8 @@
 		3F330781235158F800B883A4 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F330780235158F800B883A4 /* DrawingView.swift */; };
 		3F33078F2355827900B883A4 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F33078E2355827900B883A4 /* AnimationView.swift */; };
 		3F585D8723BDCB32009ED38F /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F585D8623BDCB32009ED38F /* LoadingView.swift */; };
+		3F585D8923BEB134009ED38F /* CirclesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F585D8823BEB134009ED38F /* CirclesView.swift */; };
+		3F585D8B23BEF5F0009ED38F /* SpirographView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F585D8A23BEF5F0009ED38F /* SpirographView.swift */; };
 		3F8D9C1F23AEF2EA0053E73D /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8D9C1E23AEF2EA0053E73D /* NotificationsView.swift */; };
 		3F8D9C2323B076540053E73D /* InvoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8D9C2223B076540053E73D /* InvoiceView.swift */; };
 		3F931C4E2398D49700323F39 /* EnvironmentObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F931C4D2398D49700323F39 /* EnvironmentObjectView.swift */; };
@@ -31,6 +33,7 @@
 		3FBEB019233D359700818B70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FBEB018233D359700818B70 /* Assets.xcassets */; };
 		3FBEB01C233D359700818B70 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FBEB01B233D359700818B70 /* Preview Assets.xcassets */; };
 		3FBEB01F233D359700818B70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FBEB01D233D359700818B70 /* LaunchScreen.storyboard */; };
+		3FEECA2723BF150A00E7032B /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEECA2623BF150A00E7032B /* ButtonsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +46,8 @@
 		3F330780235158F800B883A4 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 		3F33078E2355827900B883A4 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
 		3F585D8623BDCB32009ED38F /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		3F585D8823BEB134009ED38F /* CirclesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclesView.swift; sourceTree = "<group>"; };
+		3F585D8A23BEF5F0009ED38F /* SpirographView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpirographView.swift; sourceTree = "<group>"; };
 		3F8D9C1E23AEF2EA0053E73D /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		3F8D9C2223B076540053E73D /* InvoiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceView.swift; sourceTree = "<group>"; };
 		3F931C4D2398D49700323F39 /* EnvironmentObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectView.swift; sourceTree = "<group>"; };
@@ -60,6 +65,7 @@
 		3FBEB01B233D359700818B70 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3FBEB01E233D359700818B70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FBEB020233D359700818B70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FEECA2623BF150A00E7032B /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +83,14 @@
 			isa = PBXGroup;
 			children = (
 				3FBEB016233D359300818B70 /* MenuView.swift */,
+				3FEECA2623BF150A00E7032B /* ButtonsView.swift */,
 				3FAA75062385F9D90003A863 /* TestView.swift */,
 				3F33076F234D7AA100B883A4 /* PickerView.swift */,
 				3F931C512398D4BC00323F39 /* ToggleView.swift */,
 				3F0FB7B0237530B600046059 /* StringView.swift */,
 				3F330780235158F800B883A4 /* DrawingView.swift */,
+				3F585D8823BEB134009ED38F /* CirclesView.swift */,
+				3F585D8A23BEF5F0009ED38F /* SpirographView.swift */,
 				3F330771234D7D0100B883A4 /* ModalView.swift */,
 				3F8D9C1E23AEF2EA0053E73D /* NotificationsView.swift */,
 				3F0D7EB523AAB046001EA1FC /* PopoverView.swift */,
@@ -212,7 +221,9 @@
 				3F330770234D7AA100B883A4 /* PickerView.swift in Sources */,
 				3F931C562398D6C600323F39 /* BindingView.swift in Sources */,
 				3F0FB7B1237530B600046059 /* StringView.swift in Sources */,
+				3F585D8923BEB134009ED38F /* CirclesView.swift in Sources */,
 				3F8D9C2323B076540053E73D /* InvoiceView.swift in Sources */,
+				3FEECA2723BF150A00E7032B /* ButtonsView.swift in Sources */,
 				3F585D8723BDCB32009ED38F /* LoadingView.swift in Sources */,
 				3F33078F2355827900B883A4 /* AnimationView.swift in Sources */,
 				3F8D9C1F23AEF2EA0053E73D /* NotificationsView.swift in Sources */,
@@ -222,6 +233,7 @@
 				3F931C582398E1CE00323F39 /* FormView.swift in Sources */,
 				3F0D7EB623AAB046001EA1FC /* PopoverView.swift in Sources */,
 				3FBEB015233D359300818B70 /* SceneDelegate.swift in Sources */,
+				3F585D8B23BEF5F0009ED38F /* SpirographView.swift in Sources */,
 				3FAA75072385F9D90003A863 /* TestView.swift in Sources */,
 				3FBEB017233D359300818B70 /* MenuView.swift in Sources */,
 				3F2745DF239A1C6A00B52B44 /* Styles.swift in Sources */,

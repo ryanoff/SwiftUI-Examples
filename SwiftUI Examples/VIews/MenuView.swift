@@ -49,11 +49,13 @@ struct MenuListView: View {
                 NavigationLink(destination: DrawingView()){ Text("Drawing").padding() }
                 NavigationLink(destination: AnimationView()){ Text("Animation").padding() }
                 NavigationLink(destination: LoadingView()){ Text("Loading").padding() }
-                
+                NavigationLink(destination: SpirographView()){ Text("Spirograph").padding() }
+                NavigationLink(destination: CirclesView()){ Text("Circles").padding() }
+
             }
             
             Section(header: Text("Basics")) {
-                
+                NavigationLink(destination: ButtonsView()){ Text("Buttons").padding() }
                 NavigationLink(destination: StringView()){ Text("Strings").padding() }
                 NavigationLink(destination: BackgroundColorView()){ Text("Background Color").padding() }
                 NavigationLink(destination: FormView()){ Text("Forms").padding() }

@@ -54,6 +54,13 @@ struct IndicatorView: View {
                 .onAppear(){
                     self.rotating.toggle()
             }
+//            
+//            Circle()
+//                .frame(width: size, height: size)
+//                .foregroundColor(.orange)
+//                .offset(y: -50)
+//                .rotationEffect(.degrees(rotating ? 0 : -360))
+//                .animation(Animation.linear(duration: 1.2).repeatForever(autoreverses: false))
 
         } //VStack
         
