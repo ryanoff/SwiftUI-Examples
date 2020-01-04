@@ -15,6 +15,8 @@ struct CirclesView: View {
     @State private var innerRadius = 40.0
     @State private var hue = 0.04
     
+    @State private var animating = false
+    
     var body: some View {
         
         VStack {
@@ -28,7 +30,10 @@ struct CirclesView: View {
                         .stroke(Color(hue: self.hue, saturation: 1, brightness: 1), lineWidth: 1)
                         .frame(width: CGFloat(self.circleRadius), height: CGFloat(self.circleRadius))
                         .offset(x: self.xPosition(item), y: self.yPosition(item))
-                    
+                        .transition(AnyTransition.opacity.animation(.easeIn(duration: 0.6)))
+                        .onAppear(){
+                            self.animating.toggle()
+                    }
                     
                 } // ForEach
             } // ZStack
@@ -38,12 +43,17 @@ struct CirclesView: View {
             VStack (spacing: 0) {
                 
                 VStack {
-                    HStack{
-                        Text("Circles").font(.footnote).foregroundColor(Color.gray)
-                        Text("\(Int(numberCircles))").font(.headline)
+//                    HStack{
+//                        Text("Circles").font(.footnote).foregroundColor(Color.gray)
+//                        Text("\(Int(numberCircles))").font(.headline)
+//                    }
+                    HStack (spacing: 0) {
+                        Text("Circles").font(.footnote).foregroundColor(Color.gray).padding(.horizontal)
+                        Stepper("\(Int(numberCircles))", value: $numberCircles, in: 1...200).font(.headline)
                     }
                     Slider(value: $numberCircles, in: 1...200, step: 1)
-                        .padding([.horizontal, .bottom])
+                    .padding([.horizontal, .bottom])
+
                 }
                 
                 HStack {
