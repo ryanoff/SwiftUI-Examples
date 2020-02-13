@@ -9,10 +9,36 @@
 import SwiftUI
 
 struct ButtonsView: View {
+    
+    @State var showCheckMark: Bool = false
+    
     var body: some View {
-        Text("Not yet implemented")
+        VStack {
+            
+            Button( action: {
+                    self.showCheckMark.toggle()
+                DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                    self.showCheckMark.toggle()
+                }
+
+            }
+            ) {
+                Text("Tap me")
+            }
+            .padding(.bottom, 10)
+         
+            if showCheckMark {
+                CheckmarkView()
+                .frame(width: 200, height: 200)
+            }
+         
+            Spacer()
+            
+        }
     }
 }
+
+
 
 struct ButtonsView_Previews: PreviewProvider {
     static var previews: some View {

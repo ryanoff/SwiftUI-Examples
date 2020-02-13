@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F00952123F510EE00E34EB3 /* TempView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F00952023F510EE00E34EB3 /* TempView.swift */; };
 		3F0D7EB623AAB046001EA1FC /* PopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D7EB523AAB046001EA1FC /* PopoverView.swift */; };
 		3F0FB7B1237530B600046059 /* StringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0FB7B0237530B600046059 /* StringView.swift */; };
 		3F2745DF239A1C6A00B52B44 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2745DE239A1C6A00B52B44 /* Styles.swift */; };
@@ -33,10 +34,12 @@
 		3FBEB019233D359700818B70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FBEB018233D359700818B70 /* Assets.xcassets */; };
 		3FBEB01C233D359700818B70 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FBEB01B233D359700818B70 /* Preview Assets.xcassets */; };
 		3FBEB01F233D359700818B70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FBEB01D233D359700818B70 /* LaunchScreen.storyboard */; };
+		3FE326BC23E0C4A40004728A /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE326BB23E0C4A40004728A /* DateView.swift */; };
 		3FEECA2723BF150A00E7032B /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEECA2623BF150A00E7032B /* ButtonsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F00952023F510EE00E34EB3 /* TempView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempView.swift; sourceTree = "<group>"; };
 		3F0D7EB523AAB046001EA1FC /* PopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverView.swift; sourceTree = "<group>"; };
 		3F0FB7B0237530B600046059 /* StringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringView.swift; sourceTree = "<group>"; };
 		3F2745DE239A1C6A00B52B44 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
@@ -65,6 +68,7 @@
 		3FBEB01B233D359700818B70 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3FBEB01E233D359700818B70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FBEB020233D359700818B70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FE326BB23E0C4A40004728A /* DateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateView.swift; sourceTree = "<group>"; };
 		3FEECA2623BF150A00E7032B /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,10 +99,12 @@
 				3F8D9C1E23AEF2EA0053E73D /* NotificationsView.swift */,
 				3F0D7EB523AAB046001EA1FC /* PopoverView.swift */,
 				3F33078E2355827900B883A4 /* AnimationView.swift */,
+				3F00952023F510EE00E34EB3 /* TempView.swift */,
 				3F585D8623BDCB32009ED38F /* LoadingView.swift */,
 				3F330773234D7DFB00B883A4 /* ActionSheetView.swift */,
 				3F931C4F2398D4AE00323F39 /* StateVariableView.swift */,
 				3F931C4D2398D49700323F39 /* EnvironmentObjectView.swift */,
+				3FE326BB23E0C4A40004728A /* DateView.swift */,
 				3F8D9C2223B076540053E73D /* InvoiceView.swift */,
 				3F931C552398D6C600323F39 /* BindingView.swift */,
 				3F931C532398D4C900323F39 /* BackgroundColorView.swift */,
@@ -217,11 +223,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FE326BC23E0C4A40004728A /* DateView.swift in Sources */,
 				3F931C502398D4AE00323F39 /* StateVariableView.swift in Sources */,
 				3F330770234D7AA100B883A4 /* PickerView.swift in Sources */,
 				3F931C562398D6C600323F39 /* BindingView.swift in Sources */,
 				3F0FB7B1237530B600046059 /* StringView.swift in Sources */,
 				3F585D8923BEB134009ED38F /* CirclesView.swift in Sources */,
+				3F00952123F510EE00E34EB3 /* TempView.swift in Sources */,
 				3F8D9C2323B076540053E73D /* InvoiceView.swift in Sources */,
 				3FEECA2723BF150A00E7032B /* ButtonsView.swift in Sources */,
 				3F585D8723BDCB32009ED38F /* LoadingView.swift in Sources */,
