@@ -51,6 +51,7 @@ struct MenuListView: View {
                 NavigationLink(destination: LoadingView()){ Text("Loading").padding() }
                 NavigationLink(destination: SpirographView()){ Text("Spirograph").padding() }
                 NavigationLink(destination: CirclesView()){ Text("Circles").padding() }
+                NavigationLink(destination: CubesView()){ Text("Cubes").padding() }
 
             }
             
