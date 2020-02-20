@@ -52,6 +52,7 @@ struct MenuListView: View {
                 NavigationLink(destination: SpirographView()){ Text("Spirograph").padding() }
                 NavigationLink(destination: CirclesView()){ Text("Circles").padding() }
                 NavigationLink(destination: CubesView()){ Text("Cubes").padding() }
+                NavigationLink(destination: DrawUnitsView()){ Text("Units").padding() }
 
             }
             
@@ -72,11 +73,12 @@ struct MenuListView: View {
                 
             }
             
-            Section(header: Text("Pickers, Toggles")) {
+            Section(header: Text("Pickers, Toggles, Sliders, Steppers")) {
                 
                 NavigationLink(destination: PickerView()){ Text("Picker").padding() }
                 NavigationLink(destination: ToggleView()){ Text("Toggle").padding() }
-                
+                NavigationLink(destination: SliderView()){ Text("Sliders and Steppers").padding() }
+
                 // TODO: forms
                 // TODO: stepper
                 

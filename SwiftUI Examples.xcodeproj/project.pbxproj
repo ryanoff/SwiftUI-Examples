@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F00889923F88ED5007B7BC0 /* DrawUnitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F00889823F88ED5007B7BC0 /* DrawUnitsView.swift */; };
 		3F00952123F510EE00E34EB3 /* TempView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F00952023F510EE00E34EB3 /* TempView.swift */; };
 		3F0D7EB623AAB046001EA1FC /* PopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D7EB523AAB046001EA1FC /* PopoverView.swift */; };
 		3F0FB7B1237530B600046059 /* StringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0FB7B0237530B600046059 /* StringView.swift */; };
@@ -20,6 +21,7 @@
 		3F585D8923BEB134009ED38F /* CirclesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F585D8823BEB134009ED38F /* CirclesView.swift */; };
 		3F585D8B23BEF5F0009ED38F /* SpirographView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F585D8A23BEF5F0009ED38F /* SpirographView.swift */; };
 		3F78203823F7A9F900A1FC86 /* CubesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F78203723F7A9F900A1FC86 /* CubesView.swift */; };
+		3F82164F23FEFD86005B8ED5 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F82164E23FEFD86005B8ED5 /* SliderView.swift */; };
 		3F8D9C1F23AEF2EA0053E73D /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8D9C1E23AEF2EA0053E73D /* NotificationsView.swift */; };
 		3F8D9C2323B076540053E73D /* InvoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8D9C2223B076540053E73D /* InvoiceView.swift */; };
 		3F931C4E2398D49700323F39 /* EnvironmentObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F931C4D2398D49700323F39 /* EnvironmentObjectView.swift */; };
@@ -40,6 +42,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F00889823F88ED5007B7BC0 /* DrawUnitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawUnitsView.swift; sourceTree = "<group>"; };
 		3F00952023F510EE00E34EB3 /* TempView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempView.swift; sourceTree = "<group>"; };
 		3F0D7EB523AAB046001EA1FC /* PopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverView.swift; sourceTree = "<group>"; };
 		3F0FB7B0237530B600046059 /* StringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringView.swift; sourceTree = "<group>"; };
@@ -53,6 +56,7 @@
 		3F585D8823BEB134009ED38F /* CirclesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclesView.swift; sourceTree = "<group>"; };
 		3F585D8A23BEF5F0009ED38F /* SpirographView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpirographView.swift; sourceTree = "<group>"; };
 		3F78203723F7A9F900A1FC86 /* CubesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubesView.swift; sourceTree = "<group>"; };
+		3F82164E23FEFD86005B8ED5 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 		3F8D9C1E23AEF2EA0053E73D /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		3F8D9C2223B076540053E73D /* InvoiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvoiceView.swift; sourceTree = "<group>"; };
 		3F931C4D2398D49700323F39 /* EnvironmentObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentObjectView.swift; sourceTree = "<group>"; };
@@ -85,23 +89,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F00889A23F88EEB007B7BC0 /* Drawings */ = {
+			isa = PBXGroup;
+			children = (
+				3F330780235158F800B883A4 /* DrawingView.swift */,
+				3F78203723F7A9F900A1FC86 /* CubesView.swift */,
+				3F585D8823BEB134009ED38F /* CirclesView.swift */,
+				3F585D8A23BEF5F0009ED38F /* SpirographView.swift */,
+				3F00889823F88ED5007B7BC0 /* DrawUnitsView.swift */,
+			);
+			path = Drawings;
+			sourceTree = "<group>";
+		};
 		3F931C4C2398D28700323F39 /* VIews */ = {
 			isa = PBXGroup;
 			children = (
 				3FBEB016233D359300818B70 /* MenuView.swift */,
 				3FEECA2623BF150A00E7032B /* ButtonsView.swift */,
 				3FAA75062385F9D90003A863 /* TestView.swift */,
+				3F82164E23FEFD86005B8ED5 /* SliderView.swift */,
 				3F33076F234D7AA100B883A4 /* PickerView.swift */,
 				3F931C512398D4BC00323F39 /* ToggleView.swift */,
 				3F0FB7B0237530B600046059 /* StringView.swift */,
-				3F330780235158F800B883A4 /* DrawingView.swift */,
-				3F78203723F7A9F900A1FC86 /* CubesView.swift */,
-				3F585D8823BEB134009ED38F /* CirclesView.swift */,
-				3F585D8A23BEF5F0009ED38F /* SpirographView.swift */,
 				3F330771234D7D0100B883A4 /* ModalView.swift */,
 				3F8D9C1E23AEF2EA0053E73D /* NotificationsView.swift */,
 				3F0D7EB523AAB046001EA1FC /* PopoverView.swift */,
 				3F33078E2355827900B883A4 /* AnimationView.swift */,
+				3F00889A23F88EEB007B7BC0 /* Drawings */,
 				3F00952023F510EE00E34EB3 /* TempView.swift */,
 				3F585D8623BDCB32009ED38F /* LoadingView.swift */,
 				3F330773234D7DFB00B883A4 /* ActionSheetView.swift */,
@@ -233,9 +247,11 @@
 				3F0FB7B1237530B600046059 /* StringView.swift in Sources */,
 				3F585D8923BEB134009ED38F /* CirclesView.swift in Sources */,
 				3F00952123F510EE00E34EB3 /* TempView.swift in Sources */,
+				3F82164F23FEFD86005B8ED5 /* SliderView.swift in Sources */,
 				3F8D9C2323B076540053E73D /* InvoiceView.swift in Sources */,
 				3FEECA2723BF150A00E7032B /* ButtonsView.swift in Sources */,
 				3F585D8723BDCB32009ED38F /* LoadingView.swift in Sources */,
+				3F00889923F88ED5007B7BC0 /* DrawUnitsView.swift in Sources */,
 				3F33078F2355827900B883A4 /* AnimationView.swift in Sources */,
 				3F8D9C1F23AEF2EA0053E73D /* NotificationsView.swift in Sources */,
 				3F330781235158F800B883A4 /* DrawingView.swift in Sources */,
