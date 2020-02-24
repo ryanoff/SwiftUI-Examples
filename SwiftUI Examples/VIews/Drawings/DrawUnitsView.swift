@@ -128,7 +128,7 @@ struct Unit: Shape {
         // Back face
         let back_topleft = CGPoint(x: rect.minX - (depth * scale), y: rect.minY - (depth * scale))
         let back_bottomleft = CGPoint(x: rect.minX - (depth * scale), y: (height * scale) - (depth * scale))
-        let back_bottomright = CGPoint( x: (width * scale) - (depth * scale), y: (height * scale) - (depth * scale))
+//        let back_bottomright = CGPoint( x: (width * scale) - (depth * scale), y: (height * scale) - (depth * scale))
         let back_topright = CGPoint( x: (width * scale) - (depth * scale), y: rect.minY - (depth * scale))
 
         // Front face

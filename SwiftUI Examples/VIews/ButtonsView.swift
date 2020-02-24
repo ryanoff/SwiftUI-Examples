@@ -16,25 +16,37 @@ struct ButtonsView: View {
         VStack {
             
             Button( action: {
-                    self.showCheckMark.toggle()
+                self.showCheckMark.toggle()
                 DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
                     self.showCheckMark.toggle()
                 }
-
+                
             }
             ) {
                 Text("Tap me")
             }
             .padding(.bottom, 10)
-         
+            
             if showCheckMark {
                 CheckmarkView()
-                .frame(width: 200, height: 200)
+                    .frame(width: 200, height: 200)
             }
-         
+            
             Spacer()
             
-        }
+        } // VStack
+            .navigationBarItems(trailing:
+                HStack {
+                    Button("Test") {
+                        print("This is a Test button")
+                    }
+                    
+                    Button(action: {}) { Image(systemName: "magnifyingglass").foregroundColor(Color.gray).padding() }
+                    
+                    NavigationLink(destination: ActionSheetView()){ Image(systemName: "paperplane").padding() }
+                    
+                }
+        )
     }
 }
 

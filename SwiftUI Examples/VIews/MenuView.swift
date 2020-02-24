@@ -16,18 +16,6 @@ struct MenuView: View {
         NavigationView {
             
             MenuListView()
-                .navigationBarItems(trailing:
-                    HStack {
-                        Button("Test") {
-                            print("This is a Test button")
-                        }
-                        
-                        Button(action: {}) { Image(systemName: "magnifyingglass").foregroundColor(Color.gray).padding() }
-                        
-                        NavigationLink(destination: ActionSheetView()){ Image(systemName: "paperplane").padding() }
-                        
-                    }
-            )
             
         } // NavgiationView
     } // body
@@ -62,7 +50,7 @@ struct MenuListView: View {
                 NavigationLink(destination: BackgroundColorView()){ Text("Background Color").padding() }
                 NavigationLink(destination: FormView()){ Text("Forms").padding() }
                 NavigationLink(destination: NotificationsView()){ Text("Notifications").padding() }
-                
+                NavigationLink(destination: SubViewsView()){ Text("SubViews and Navigation").padding() }
             }
             
             Section(header: Text("Combine")) {
@@ -78,10 +66,15 @@ struct MenuListView: View {
                 NavigationLink(destination: PickerView()){ Text("Picker").padding() }
                 NavigationLink(destination: ToggleView()){ Text("Toggle").padding() }
                 NavigationLink(destination: SliderView()){ Text("Sliders and Steppers").padding() }
-
-                // TODO: forms
-                // TODO: stepper
                 
+            }
+
+            Section(header: Text("Networking")) {
+                
+                NavigationLink(destination: CodableView()){ Text("Codable URLSession").padding() }
+                NavigationLink(destination: StarWarsApiView()){ Text("Star Wars API").padding() }
+                NavigationLink(destination: SearchResponseView()){ Text("Search and Sort Network Response").padding() }
+
             }
             
         } // List

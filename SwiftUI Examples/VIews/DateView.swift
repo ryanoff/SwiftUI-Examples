@@ -31,16 +31,16 @@ struct DateView: View {
         return formatter
     }()
     
+    let someDate = Date().addingTimeInterval(86400)
+    
     var body: some View {
-        VStack{
+        VStack(alignment: .leading, spacing: 40){
+            Text("Default Date: \(someDate)")
+            
             Text("Original Date: \(dateString)")
-            Divider()
             Text("formatDate: \(getDate(dateString))")
-            Divider()
             Text("dateFormatter: \(getDate(dateString), formatter: Self.dateFormat)")
-            Divider()
             Text("Age: \(getDate(dateString).age)")
-            Divider()
             Text("Date: \(Date())")
             Text("Age: \(Date().age)")
 
