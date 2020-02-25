@@ -18,6 +18,8 @@ struct MenuView: View {
             MenuListView()
             
         } // NavgiationView
+        .navigationViewStyle(StackNavigationViewStyle())
+
     } // body
 } // ContentView
 
