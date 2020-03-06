@@ -43,6 +43,7 @@ struct MenuListView: View {
                 NavigationLink(destination: CirclesView()){ Text("Circles").padding() }
                 NavigationLink(destination: CubesView()){ Text("Cubes").padding() }
                 NavigationLink(destination: DrawUnitsView()){ Text("Units").padding() }
+                NavigationLink(destination: BreatheView()){ Text("Breathe").padding() }
 
             }
             

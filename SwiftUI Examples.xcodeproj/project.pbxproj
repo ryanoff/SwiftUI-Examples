@@ -17,6 +17,7 @@
 		3F330774234D7DFB00B883A4 /* ActionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F330773234D7DFB00B883A4 /* ActionSheetView.swift */; };
 		3F330781235158F800B883A4 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F330780235158F800B883A4 /* DrawingView.swift */; };
 		3F33078F2355827900B883A4 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F33078E2355827900B883A4 /* AnimationView.swift */; };
+		3F57E1A82410D18A00A4AE9A /* BreatheView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F57E1A72410D18A00A4AE9A /* BreatheView.swift */; };
 		3F585D8723BDCB32009ED38F /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F585D8623BDCB32009ED38F /* LoadingView.swift */; };
 		3F585D8923BEB134009ED38F /* CirclesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F585D8823BEB134009ED38F /* CirclesView.swift */; };
 		3F585D8B23BEF5F0009ED38F /* SpirographView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F585D8A23BEF5F0009ED38F /* SpirographView.swift */; };
@@ -56,6 +57,7 @@
 		3F330773234D7DFB00B883A4 /* ActionSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetView.swift; sourceTree = "<group>"; };
 		3F330780235158F800B883A4 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 		3F33078E2355827900B883A4 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
+		3F57E1A72410D18A00A4AE9A /* BreatheView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheView.swift; sourceTree = "<group>"; };
 		3F585D8623BDCB32009ED38F /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		3F585D8823BEB134009ED38F /* CirclesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclesView.swift; sourceTree = "<group>"; };
 		3F585D8A23BEF5F0009ED38F /* SpirographView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpirographView.swift; sourceTree = "<group>"; };
@@ -109,6 +111,16 @@
 			path = Drawings;
 			sourceTree = "<group>";
 		};
+		3F57E1A92411754000A4AE9A /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				3F33078E2355827900B883A4 /* AnimationView.swift */,
+				3F585D8623BDCB32009ED38F /* LoadingView.swift */,
+				3F57E1A72410D18A00A4AE9A /* BreatheView.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
 		3F7F9BC523FF9A4A003B650C /* Networking */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,10 +145,9 @@
 				3F330771234D7D0100B883A4 /* ModalView.swift */,
 				3F8D9C1E23AEF2EA0053E73D /* NotificationsView.swift */,
 				3F0D7EB523AAB046001EA1FC /* PopoverView.swift */,
-				3F33078E2355827900B883A4 /* AnimationView.swift */,
+				3F57E1A92411754000A4AE9A /* Animations */,
 				3F00889A23F88EEB007B7BC0 /* Drawings */,
 				3F00952023F510EE00E34EB3 /* TempView.swift */,
-				3F585D8623BDCB32009ED38F /* LoadingView.swift */,
 				3F330773234D7DFB00B883A4 /* ActionSheetView.swift */,
 				3F931C4F2398D4AE00323F39 /* StateVariableView.swift */,
 				3F931C4D2398D49700323F39 /* EnvironmentObjectView.swift */,
@@ -268,6 +279,7 @@
 				3F0FB7B1237530B600046059 /* StringView.swift in Sources */,
 				3F585D8923BEB134009ED38F /* CirclesView.swift in Sources */,
 				3F00952123F510EE00E34EB3 /* TempView.swift in Sources */,
+				3F57E1A82410D18A00A4AE9A /* BreatheView.swift in Sources */,
 				3F82164F23FEFD86005B8ED5 /* SliderView.swift in Sources */,
 				3F8D9C2323B076540053E73D /* InvoiceView.swift in Sources */,
 				3F7F9BC423FF9A19003B650C /* StarWarsApiView.swift in Sources */,
