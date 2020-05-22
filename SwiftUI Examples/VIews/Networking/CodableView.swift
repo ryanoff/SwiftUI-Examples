@@ -48,6 +48,13 @@ struct CodableView: View {
         let request = URLRequest(url: url)
 
         URLSession.shared.dataTask(with: request) { data, response, error in
+            
+            // For debugging
+//            if let json = try? JSONSerialization.jsonObject(with: data!, options: []) {
+//                print(json)
+//            }
+
+            
             if let data = data {
                 if let decodedResponse = try? JSONDecoder().decode(Response.self, from: data) {
                     // we have good data – go back to the main thread

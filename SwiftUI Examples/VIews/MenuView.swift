@@ -77,6 +77,7 @@ struct MenuListView: View {
                 NavigationLink(destination: CodableView()){ Text("Codable URLSession").padding() }
                 NavigationLink(destination: StarWarsApiView()){ Text("Star Wars API").padding() }
                 NavigationLink(destination: SearchResponseView()){ Text("Search and Sort Network Response").padding() }
+                NavigationLink(destination: NodejsAPI()){ Text("NodeJS API").padding() }
 
             }
             

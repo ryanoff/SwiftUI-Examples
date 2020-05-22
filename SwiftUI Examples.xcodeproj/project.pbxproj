@@ -42,6 +42,7 @@
 		3FBEB019233D359700818B70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FBEB018233D359700818B70 /* Assets.xcassets */; };
 		3FBEB01C233D359700818B70 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FBEB01B233D359700818B70 /* Preview Assets.xcassets */; };
 		3FBEB01F233D359700818B70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FBEB01D233D359700818B70 /* LaunchScreen.storyboard */; };
+		3FCBFE7824783BD500DE5436 /* NodejsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCBFE7724783BD500DE5436 /* NodejsAPI.swift */; };
 		3FE326BC23E0C4A40004728A /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE326BB23E0C4A40004728A /* DateView.swift */; };
 		3FEECA2723BF150A00E7032B /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEECA2623BF150A00E7032B /* ButtonsView.swift */; };
 /* End PBXBuildFile section */
@@ -84,6 +85,7 @@
 		3FBEB01B233D359700818B70 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3FBEB01E233D359700818B70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FBEB020233D359700818B70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FCBFE7724783BD500DE5436 /* NodejsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodejsAPI.swift; sourceTree = "<group>"; };
 		3FE326BB23E0C4A40004728A /* DateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateView.swift; sourceTree = "<group>"; };
 		3FEECA2623BF150A00E7032B /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -127,6 +129,7 @@
 				3F7F9BC123FF9837003B650C /* CodableView.swift */,
 				3F7F9BC624004672003B650C /* SearchResponseView.swift */,
 				3F7F9BC323FF9A19003B650C /* StarWarsApiView.swift */,
+				3FCBFE7724783BD500DE5436 /* NodejsAPI.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				3F7F9BC223FF9837003B650C /* CodableView.swift in Sources */,
 				3F8D9C1F23AEF2EA0053E73D /* NotificationsView.swift in Sources */,
 				3F330781235158F800B883A4 /* DrawingView.swift in Sources */,
+				3FCBFE7824783BD500DE5436 /* NodejsAPI.swift in Sources */,
 				3F931C4E2398D49700323F39 /* EnvironmentObjectView.swift in Sources */,
 				3FBEB013233D359300818B70 /* AppDelegate.swift in Sources */,
 				3F7F9BC724004672003B650C /* SearchResponseView.swift in Sources */,
