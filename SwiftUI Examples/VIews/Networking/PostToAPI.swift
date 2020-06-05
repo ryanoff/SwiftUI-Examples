@@ -51,7 +51,7 @@ struct PostToAPI: View {
         request.httpMethod = "POST"
          
         // HTTP Request Parameters which will be sent in HTTP Request Body
-        let postString = "client=GREEN&location=none&move_in=true";
+        let postString = "client=BLUE&location=somewhere&move_in=true";
         
         // Set HTTP Request Body
         request.httpBody = postString.data(using: String.Encoding.utf8);

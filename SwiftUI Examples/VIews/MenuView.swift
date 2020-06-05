@@ -44,7 +44,8 @@ struct MenuListView: View {
                 NavigationLink(destination: CubesView()){ Text("Cubes").padding() }
                 NavigationLink(destination: DrawUnitsView()){ Text("Units").padding() }
                 NavigationLink(destination: BreatheView()){ Text("Breathe").padding() }
-
+                NavigationLink(destination: LineChartView()){ Text("Line Chart").padding() }
+                
             }
             
             Section(header: Text("Basics")) {
